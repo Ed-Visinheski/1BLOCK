@@ -1,0 +1,42 @@
+button.nav{
+  background: #E35F2100;
+  border-color: #00000000;
+  color:#ffffff;
+  font-size: 25px;
+  
+}
+.navBar{
+display: flex;
+justify-content: right;
+background: #00000000;
+margin-left: 0px;
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li button {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li button:hover {
+  text-shadow: 1px 0px 5px #ffffff;
+  transition: 0.5s;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  padding-top: 8px;
+  background: #00000000;
+}
